@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <title>homework3</title>
     <style>
+        html {
+            scroll-behavior: smooth;
+        }
         body{
             margin: 0;
-            overflow: hidden;
         }
         section{
             height: 100vh;
@@ -31,6 +33,9 @@
         h1{
             font-size: 40px;
         }
+        span{
+            font-size: 20px;
+        }
 
     </style>
 </head>
@@ -38,14 +43,16 @@
 <section id="first">
     <h1>Section Title</h1>
     <p>TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText</p>
-<a href="#second">&#11015;</a>
+<a href="#second"><span>&#11015;</span></a>
 </section>
 <section id="second">
+    <a href="#first">&#8593;</a>
     <h1>Section Title</h1>
     <p>TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText</p>
     <a href="#third">&#11015;</a>
 </section>
 <section id="third">
+    <a href="#second">&#8593;</a>
     <h1>Section Title</h1>
     <p>TextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextTextText</p>
     <a href="#first">&#11015;</a>
