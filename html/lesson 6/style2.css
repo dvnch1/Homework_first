@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: darkgray;
+    border: 1px solid black;
+    margin: 10px;
+}
+.big{
+    display: flex;
+}
+.small{
+    display: flex;
+    height: 65vh;
+    width: 60vw;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.bee{
+    background-color: darkgray;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    width: 100%;
+    margin: 10px;
+}
+.cee{
+    background-color: darkgray;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 25vh;
+}
+.eee{
+    background-color: darkgray;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 25vh;
+}
+.dee{
+    background-color: darkgray;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 25vh;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    border: 1px solid black;
+    height: 60vh;
+    width: 40vw;
+    margin: 10px;
+}
+section{
+    margin: 10px;
+}
+@media screen and (min-width: 300px) and (max-width: 500px){
+    header{
+        height: 20vh;
+    }
+    .bee{
+        height: 40vh;
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+        height: 20vh;
+    }
+    .small{
+       width: 100vw;
+    }
+    .big{
+        flex-wrap: wrap;
+    }
+    .cee{
+        width: 20vw;
+        height: 15vh;
+    }
+    .dee{
+        width: 20vw;
+        height: 15vh;
+    }
+    .eee{
+        width: 20vw;
+        height: 15vh;
+    }
+
+
+}

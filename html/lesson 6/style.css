@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.bee{
+    width: 65vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Aii{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cee{
+    width: 35vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+div{
+    background: #8A8484;
+    border: 1px solid black;
+    margin: 10px;
+}
+@media screen and (min-width: 300px) and (max-width: 500px){
+    .Aii{
+        height: 20vh;
+    }
+    .bee{
+        height: 60vh;
+        width: 95vw;
+    }
+    .Cee{
+        height: 15vh;
+        width: 95vw;
+    }
+    .main{
+        flex-direction: column;
+    }
+
+    
+}
